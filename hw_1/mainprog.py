@@ -182,7 +182,6 @@ for key in post_com:
     post_com_lst += [(key, mittel)]
 post_com_lst = sorted(post_com_lst)
 
-print('len(city_com_lst)', len(city_com_lst))
 city_com_lst = city_com_lst[len(city_com_lst)-1:len(city_com_lst)-51:-1]
 plt.figure(figsize=(20,10))
 plt.bar(range(len(city_com_lst)), [i[0] for i in city_com_lst], label='коммент vs. город')
