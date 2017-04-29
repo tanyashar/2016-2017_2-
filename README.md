@@ -1,5 +1,5 @@
 # 2016-2017_2-
 
-homewok
+homework
 Tanya Sharipova
 151
