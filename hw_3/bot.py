@@ -20,7 +20,7 @@ def find_words_rus(text):
     return lst
 
 def make_text(text):
-    lst = json.load(open('lemmas.json', 'r', encoding='utf-8'))
+    lst = json.load(open('/home/tanyashar/mysite/lemmas.json', 'r', encoding='utf-8'))
     
     ct = 0
     if len(text) != 0:
