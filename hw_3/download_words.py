@@ -30,7 +30,7 @@ def download_words():
         ct += 1
 
     s = list(s)
-    json.dump(s, open('lemmas.json', 'w', encoding='utf-8'))
+    json.dump(s, open('lemmas.json', 'w', encoding='utf-8'), ensure_ascii=False)
     #теперь леммы в s, записаны в json в файл 'lemmas.json'
 
 download_words()
