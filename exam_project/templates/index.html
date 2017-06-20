@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Это мой сайт</title>
+</head>
+<body>
+<h2>Данные из раздела "Культура" газеты "Московский Комсомолец"</h2>
+<p>Список страниц на этом сайте:</p>
+<ul>
+    {% for name, url in urls.items() %}
+    <li><a href="{{ url }}">{{ name }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
